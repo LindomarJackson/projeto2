@@ -1,0 +1,86 @@
+
+body{
+    background: var(--fundo-color);
+    
+}
+:root{
+    --fundo-color:black;
+    --botaocor:gray;
+    --coroutrofundo:rgb(46, 46, 46);
+    --fotofoda:url(assets/download\ \(2\).jpg);
+}
+
+.light{
+    --fundo-color:white;
+    --botaocor:black;
+    --coroutrofundo:rgb(147, 147, 147);
+    --fotofoda:url(assets/download\ \(1\).jpg);
+}
+a{
+    text-decoration: none;
+}
+
+
+#quadrado1{
+    /*border: 1px red solid;*/
+    width: 139px;
+    height: 450px;
+    display: block;
+    padding: 100px;
+    margin: auto;
+    margin-top: 30px;
+    max-width: 588px;
+    justify-content: center;
+    background-color: var(--coroutrofundo);
+    border-radius: 20px;
+    
+}
+#imagem{
+border: 1px blue solid;
+display: block;
+margin-bottom:275px;
+height: 150px;
+width: 150px;
+background-image:var(--fotofoda);
+border-radius: 10px;
+margin-top: -50px;
+}
+#botoes{
+ border: 1px green solid;
+ height: 335px;
+ margin-left: -50px;
+ width: 250px; 
+ margin-top:-244px;
+}
+#botao{
+    border: 1px blue solid;
+    margin-top:10px;
+    height: 50px;
+    width: 200px;
+    margin-left:25px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   background-color: rgb(77, 77, 77);
+}
+#botoes #botao:hover{
+   background-color: var(--botaocor);
+  transition: 0.75s;
+  
+  
+}
+#butoes{
+    border: 1px red solid;
+    height: 40px;
+    width: 250px;
+   margin-left: -50px;
+}
+#butao{
+    border: 1px green solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(assets/download2.jpg) no-repeat;
+    background-color: gray;
+}
