@@ -1,2 +1,2 @@
 # projeto2
-aaaaaaaaa
+nesse projeto foi usado:css,javascript e html
