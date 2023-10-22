@@ -4,20 +4,23 @@ body{
     
 }
 :root{
-    --fundo-color:black;
+    --fundo-color:rgb(0, 0, 0);
     --botaocor:gray;
     --coroutrofundo:rgb(46, 46, 46);
     --fotofoda:url(assets/download\ \(2\).jpg);
+    --cortext:white
 }
 
 .light{
-    --fundo-color:white;
+    --fundo-color:rgb(255, 239, 239);
     --botaocor:black;
     --coroutrofundo:rgb(147, 147, 147);
     --fotofoda:url(assets/download\ \(1\).jpg);
+    --cortext:black
 }
 a{
-    text-decoration: none;
+    text-decoration:none;
+    text-decoration-color:black ;
 }
 
 
@@ -36,7 +39,7 @@ a{
     
 }
 #imagem{
-border: 1px blue solid;
+/*border: 1px blue solid;*/
 display: block;
 margin-bottom:275px;
 height: 150px;
@@ -46,14 +49,14 @@ border-radius: 10px;
 margin-top: -50px;
 }
 #botoes{
- border: 1px green solid;
+ /*border: 1px green solid;*/
  height: 335px;
  margin-left: -50px;
  width: 250px; 
- margin-top:-244px;
+ margin-top:-240px;
 }
 #botao{
-    border: 1px blue solid;
+    /*border: 1px blue solid;*/
     margin-top:10px;
     height: 50px;
     width: 200px;
@@ -71,16 +74,30 @@ margin-top: -50px;
   
 }
 #butoes{
-    border: 1px red solid;
+    /*border: 1px red solid;*/
     height: 40px;
     width: 250px;
    margin-left: -50px;
+   
 }
 #butao{
-    border: 1px green solid;
+    /*border: 1px green solid;*/
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-image: url(assets/download2.jpg) no-repeat;
+    background-image: url(assets/download2.jpg) center;
     background-color: gray;
+    margin-bottom: -25px;
+    float: right;
+    margin-right: 10px;
+}
+
+#troca{
+    height: 20px;
+    width: 50px;
+    position: fixed;
+    border: 1px red solid;
+    margin-left: 97px;
+    margin-top: -29px;
+    background-color: var(--botaocor);
 }
